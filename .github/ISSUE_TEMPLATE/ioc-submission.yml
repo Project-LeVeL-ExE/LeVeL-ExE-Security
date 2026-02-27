@@ -1,0 +1,60 @@
+name: "IOC submission / False negative (malicious domain missing)"
+description: "Submit a malicious domain/FQDN with technical corroboration."
+title: "[IOC] <domain>"
+labels: ["ioc", "false-negative"]
+body:
+  - type: input
+    id: domain
+    attributes:
+      label: Domain / FQDN
+      placeholder: bad.example or c2.bad.example
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category
+      options:
+        - Malware & Virus
+        - Phishing & Fraud
+        - Network Attacks (C2/Botnet/RAT/Ransomware)
+        - Trackers & Surveillance
+        - Other / unsure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: Confidence
+      options:
+        - High (strong source / explicit IOC)
+        - Medium (multiple moderate signals)
+        - Low (needs validation)
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Technical rationale
+      description: Explain why this is malicious (campaign, malware family, C2 role, phishing kit, etc.).
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources / evidence links
+      description: Provide CERT/vendor reports, TI feed entries, sandbox reports, etc. Prefer primary sources.
+    validations:
+      required: true
+
+  - type: textarea
+    id: seen
+    attributes:
+      label: First/last seen (optional)
+      description: Add dates/timestamps if known.
+    validations:
+      required: false
