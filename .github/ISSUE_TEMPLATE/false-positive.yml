@@ -1,0 +1,26 @@
+name: "False positive (legitimate domain blocked)"
+description: "Report a legitimate domain/FQDN that is being blocked and causes breakage."
+title: "[FP] <domain>"
+labels: ["false-positive"]
+body:
+  - type: input
+    id: domain
+    attributes:
+      label: Domain / FQDN
+      placeholder: example.com or sub.example.com
+    validations:
+      required: true
+  - type: textarea
+    id: breakage
+    attributes:
+      label: What breaks?
+      description: Symptoms + steps to reproduce.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs (optional)
+      render: text
+    validations:
+      required: false

@@ -1,0 +1,40 @@
+LeVeL-ExE DNS Blocklist
+Copyright (C) 2026 Guglielmo Patrucco <project@level-exe.com>
+Website: https://level-exe.com
+GitHub:  https://github.com/Project-LeVeL-ExE
+
+SPDX-License-Identifier: GPL-3.0-or-later
+
+This project is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This project is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this project (see COPYING).  If not, see <https://www.gnu.org/licenses/>.
+
+───────────────────────────────────────────────────────────────────────
+ADDITIONAL NOTICES (GPLv3 §7-compatible)
+───────────────────────────────────────────────────────────────────────
+
+1) Attribution / notices
+   - When conveying copies or modified versions, keep intact the
+     copyright notices and license notices present in this repository.
+   - A link back to the upstream repository is appreciated when practical.
+
+2) Trademarks / branding
+   - "LeVeL-ExE" and associated logos/branding are used to identify the
+     upstream project. This license does not grant trademark rights.
+   - Do not use the name or branding in a way that suggests endorsement
+     by the upstream author.
+   See TRADEMARK.md for usage guidelines.
+
+3) Contributions
+   By submitting contributions (pull requests, issues, IOC submissions)
+   you agree that your contributions will be licensed under GPL-3.0-or-later
+   and that you have the right to submit them.
